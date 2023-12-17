@@ -1,0 +1,57 @@
+.news{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    line-height: 32px;
+    color: #5699FF;
+}
+body{
+  background-color: #051139;
+}
+
+.font{
+    font-family: Poppins;
+}
+.doyou{
+    font-style: normal;
+    font-weight: 700;
+    
+}
+/* .shadow{
+    text-shadow: 1px 1px 2px white, 0 0 25px , 0 0 5px !important;
+    background-color: #AA00FF;
+    color: #AA00FF;
+} */
+.social-icons {
+    display: inline-block; /* Ensures icons appear in a row */
+  }
+  
+  .social-icons i {
+    border: 1px solid white; /* Add a border */
+    border-radius: 50%; /* Apply rounded corners */
+    padding: 8px; /* Add some padding for space around the icons */
+    margin: 2px; /* Add margin between icons */
+  }
+  .text-stroke {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px white; /* Change 'black' to your desired stroke color */
+  }
+  .shadow-custom{
+    box-shadow: 0px 24px 80px 0px rgba(0, 0, 0, 0.80);
+  }
+  .backimage{
+    background-image: url("../public/back.jpg");
+    background-size: cover; /* This property ensures the background image covers the entire element without repeating */
+  background-repeat: no-repeat;
+  }
+  .kuch{
+    background: rgba(255, 255, 255, 0.10);
+  }
+  .much{
+    opacity: 0.5;
+  }
+  .muchi{
+    opacity: 0.2;
+  }
