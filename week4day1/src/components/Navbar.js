@@ -1,7 +1,7 @@
 import Dropdown from "./Dropdown";
 
 const Navbar = () => {
-    return <nav className='flex justify-between  items-center py-2 px-5 container mx-auto'>
+    return <nav className='flex justify-between  items-center py-2 lg:px-14 px-4 md:px-14 '>
     <div className='flex justify-between items-center'>
       <div className='flex justify-between items-center gap-3'><img src="Logo.svg" alt="yorfee" /><span className='font-bold font text-white hover:cursor-pointer hover:text-gray-600'>YORFY</span></div>
         <ul className='lg:flex justify-between items-center gap-5 ml-6 hidden'>

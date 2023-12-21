@@ -3,7 +3,8 @@ import Navbar from "./Navbar";
 
 const Section = () => {
     return( <div className="backimage">
-    <Navbar />
+      <div className="container mx-auto">
+    <Navbar  />
     <div className='flex justify-start  items-center gap-10 sm:gap-0 flex-col sm:flex-row pt-10  md:my-5 sm:my-3 md:px-14  px-[1rem]'>
       
     
@@ -46,9 +47,11 @@ const Section = () => {
     </div>
   </div>
   <div className="pt-10">
-  <Discount />
+ 
   
   </div>
+  </div>
+  <Discount />
   </div>
     )
 };

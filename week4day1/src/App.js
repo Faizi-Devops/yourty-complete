@@ -16,6 +16,8 @@ import Shop from './components/Shop';
 
 function App() {
   return (
+    <div>
+      <Section />
     <div className='container mx-auto'>
     <div>
       {/* <Newsletter /> */}
@@ -27,17 +29,20 @@ function App() {
       {/* <Shop /> */}
       {/* <Navbar /> */}
      
-      <Section />
-      <Featured />
+      
+      
       <Eyescard />
       
       <Collection />
       <Cards />
       <Button />
       <Shop />
+      </div>
+      </div>
       <div className='pt-[3.5rem]'>
       <Discount />
       </div>
+      <div className='container mx-auto'>
       <div className='pt-[4rem]'>
       <Logos />
       </div>
@@ -46,12 +51,9 @@ function App() {
 
       </div>
       <div>
+        
         <Footer />
-      </div>
-    
-      
-       
-
+    </div>
     </div>
     </div>
   );

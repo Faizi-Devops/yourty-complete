@@ -2,7 +2,7 @@ const Discount = () =>{
     return(
         <div>
         <div className="bg-[#AA00FF]">
-            <div className="lg:px-[58px] px-[1rem] md:px-[2.5rem]  py-[24px]">
+            <div className="lg:px-[20px] px-[1rem] md:px-[2.5rem] container mx-auto  py-[24px]">
 
             
             <div className="grid lg:grid-cols-4 md:grid-cols-4 grid-cols-2">
