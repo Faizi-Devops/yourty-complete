@@ -14,7 +14,7 @@ const Navbar = () => {
         </ul>
       </div>
     <div className='h-[3rem] flex justify-center items-center gap-2'>
-      <img src="menu.svg" alt="menu" className="lg:block hidden h-[35px]" />
+      
       <div className="lg:hidden">
       <Dropdown/>
       </div>
