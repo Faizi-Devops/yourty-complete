@@ -9,12 +9,12 @@ const Cards = () => {
   }, []);
   return (
     <div className="lg:px-[rem] md:px-[2.5rem] px-[1rem] ">
-        <div className="">
+        <div className=" flex justify-center">
 
         
-      <div className="grid lg:gap-[1rem] grid-cols-1 md:grid-cols-2  md:gap-[1rem] lg:grid-cols-3 justify-center">
+      <div className="grid lg:gap-[1rem]  grid-cols-1 md:grid-cols-2   md:gap-[1rem] lg:grid-cols-3 justify-center">
         <div>
-          <div data-aos="flip-left" class="block max-w-sm lg:p-[1.5rem] md:p-[1rem] p-[1rem] mt-[1rem]     border border-[#1E50FF] rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+          <div data-aos="flip-left" class="block max-w-sm sm:text-center lg:p-[1.5rem] md:p-[1rem] p-[1rem] mt-[1rem]     border border-[#1E50FF] rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <img src="sixfaces1.png" alt="" className="w-full" />
             <div className=" flex pt-[1.5rem]">
                 

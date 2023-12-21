@@ -27,12 +27,12 @@ const Shop = () =>{
                     </div>
                     <div className="order-1 md:order-1 pt-[2rem] md:pt-[0rem]">
                         
-<div    class="block max-w-full lg:ml-[3.5rem]   lg:mr-[4rem] md:mr-[19rem] mr-[0px] mt-[0.6rem] bg-[#081956]  rounded py-[1rem] px-[1rem]">
+<div    class="block max-w-full lg:ml-[3.5rem] hover:bg-blue-300   lg:mr-[4rem] md:mr-[19rem] mr-[0px] mt-[0.6rem] bg-[#081956]  rounded py-[1rem] px-[1rem]">
 <div  class="flex " data-aos="zoom-in">
     <div class="">
         <img src="Avatar.png" alt="" />
     </div>
-    <div class=" flex flex-col ml-[1rem] leading-8" >
+    <div class=" flex flex-col ml-[1rem] leading-8 " >
         <p class="font text-[1rem] font-bold text-white">ShooPharDhie</p>
         <p class="font text-[0.75rem] text-white">Last Online 2 Hour Ago</p>
     </div>
@@ -42,7 +42,7 @@ const Shop = () =>{
 </div>
 
 </div>
-<div  class="block max-w-full lg:mr-[2rem] md:mr-[12rem]  shadow-custom much lg:ml-[6rem]  md:ml-[8.5rem] mt-[0.9rem]  bg-[#081956]  rounded py-[1rem] px-[1rem]">
+<div  class="block max-w-full lg:mr-[2rem] md:mr-[12rem] hover:bg-blue-300  shadow-custom much lg:ml-[6rem]  md:ml-[8.5rem] mt-[0.9rem]  bg-[#081956]  rounded py-[1rem] px-[1rem]">
 <div  class="flex " data-aos="zoom-in">
     <div class="">
         <img src="Avatar.png" alt="" />
@@ -57,7 +57,7 @@ const Shop = () =>{
 </div>
 
 </div>
-<div  class="block max-w-full  lg:ml-[9rem] md:ml-[17rem] md:mr-[2rem] lg:mr-[0rem] muchi mt-[0.9rem] bg-[#081956]  rounded py-[1rem] px-[1rem]">
+<div  class="block max-w-full  lg:ml-[9rem] md:ml-[17rem] hover:bg-blue-300 md:mr-[2rem] lg:mr-[0rem] muchi mt-[0.9rem] bg-[#081956]  rounded py-[1rem] px-[1rem]">
 <div  class="flex " data-aos="zoom-in">
     <div class="">
         <img src="Avatar.png" alt="" />
