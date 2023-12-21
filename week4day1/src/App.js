@@ -4,6 +4,7 @@ import Cards from './Cards';
 import Button from './components/Button';
 import Collection from './components/Collection';
 import Discount from './components/Discount';
+import Dropdown from './components/Dropdown';
 import Eyescard from './components/Eyescard';
 import Featured from './components/Features';
 import Footer from './components/Footer';
@@ -47,6 +48,7 @@ function App() {
       <div>
         <Footer />
       </div>
+    
       
        
 

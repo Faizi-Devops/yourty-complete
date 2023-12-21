@@ -1,3 +1,4 @@
+import Dropdown from "./Dropdown";
 
 const Navbar = () => {
     return <nav className='flex justify-between  items-center py-2 px-5 container mx-auto'>
@@ -13,7 +14,10 @@ const Navbar = () => {
         </ul>
       </div>
     <div className='h-[3rem] flex justify-center items-center gap-2'>
-      <img src="menu.svg" alt="menu" className="block h-[35px] md:block lg:hidden sm:hidden" />
+      <img src="menu.svg" alt="menu" className="lg:block hidden h-[35px]" />
+      <div className="lg:hidden">
+      <Dropdown/>
+      </div>
       <button className='bg-blue-500 block h-full w-[7rem] rounded-lg font text-white'>Join Us</button>
     </div>
   </nav>
