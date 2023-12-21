@@ -34,7 +34,7 @@ const Section = () => {
     <div className='sm:flex-1 sm:flex sm:justify-end sm:items-end h-[530px] sm:h-[530px]  sm:w-[50%] w-full'>
       <div className="w-full h-full flex justify-end items-end relative sm:w-[90%]">
       <div className='sm:h-[370px] h-[320]  w-[90%] xl:h-[368px] md:h-[300px] h-[330px] bg-slate-300 absolute top-[0%] left-[50%] translate-x-[-50%] rounded-lg'>
-          <img className='block  h-full w-full' src="teeth.png" alt="faces" />
+          <img className='block  h-full w-full object-cover' src="teeth.png" alt="faces" />
         </div>
       <div className="border-blue-600 border-2 rounded-lg h-52  lg:h-[256px] h-[250px] md:h-[300px] kuch w-full">
         <div className='flex flex-col justify-end items-center lg:justify-center lg:items-end gap-5 h-full p-5 lg:flex-row sm:flex-col sm:justify-end sm:items-center'>  

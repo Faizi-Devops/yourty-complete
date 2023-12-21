@@ -9,7 +9,7 @@ const Footer = () =>{
       }, []);
     return(
         <div className="lg:px-[0rem] md:px-[2.5rem] py-[2.5rem] px-[1rem] pt-[5rem]">
-            <div className="grid grid-cols-2 ">
+            <div className="flex justify-between">
                 <div>
                     <div className="flex">
                     <img src="Logo.svg" alt="" /><p className="text-black font font-semibold lg:text-[2.5rem] text-[1rem] md:text-[1.5rem] pt-2 md:pt-1 lg:pt-0 pl-[0.3rem] lg:pl-[0.5rem] text-white" data-aos="zoom-in">YORFY</p>
