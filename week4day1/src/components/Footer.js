@@ -16,10 +16,23 @@ const Footer = () =>{
                     </div>
                 </div>
                 <div  className="social-icons lg:pt-[1rem]    text-end">
+                <i class="fab fa-facebook text-white"></i>
+
                 <i data-aos="zoom-in" class="fab fa-instagram text-white"></i>
-                <i data-aos="zoom-in" class="fab fa-instagram text-white"></i>
-                <i data-aos="zoom-in" class="fab fa-instagram text-white"></i>
-                <i data-aos="zoom-in" class="fab fa-instagram text-white"></i>
+                
+                <i class="fab fa-linkedin-in text-white"></i>
+                <i class="fab fa-youtube-square text-white"></i>
+
+
+
+
+
+
+
+
+               
+                
+                
                 
 
                 
